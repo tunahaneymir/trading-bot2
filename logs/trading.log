@@ -1,0 +1,22 @@
+2025-11-05 09:56:20 [INFO] trading - Trade açıldı: BTCUSDT LONG
+2025-11-05 09:56:20 [WARNING] trading - Yüksek volatilite tespit edildi
+2025-11-05 09:56:20 [ERROR] trading - API bağlantı hatası
+2025-11-05 09:56:20 [INFO] trading - Trade tamamlandı
+2025-11-05 10:01:44 [INFO] trading - Trade açıldı: BTCUSDT LONG
+2025-11-05 10:01:44 [WARNING] trading - Yüksek volatilite tespit edildi
+2025-11-05 10:01:44 [ERROR] trading - API bağlantı hatası
+2025-11-05 10:01:44 [INFO] trading - Trade tamamlandı
+2025-11-05 10:01:45 [INFO] trading - Trading bot başlatıldı
+2025-11-05 10:01:45 [INFO] trading - Trade analizi başlatıldı
+2025-11-05 10:01:45 [INFO] trading - Trade açıldı: BTCUSDT LONG @ 45000
+2025-11-05 10:01:45 [INFO] trading - Trade kapatıldı: BTCUSDT LONG
+2025-11-05 10:01:45 [WARNING] trading - API hatası - yeniden deneniyor...
+2025-11-05 10:15:19 [INFO] trading - Trade açıldı: BTCUSDT LONG
+2025-11-05 10:15:19 [WARNING] trading - Yüksek volatilite tespit edildi
+2025-11-05 10:15:19 [ERROR] trading - API bağlantı hatası
+2025-11-05 10:15:19 [INFO] trading - Trade tamamlandı
+2025-11-05 10:15:19 [INFO] trading - Trading bot başlatıldı
+2025-11-05 10:15:19 [INFO] trading - Trade analizi başlatıldı
+2025-11-05 10:15:19 [INFO] trading - Trade açıldı: BTCUSDT LONG @ 45000
+2025-11-05 10:15:19 [INFO] trading - Trade kapatıldı: BTCUSDT LONG
+2025-11-05 10:15:19 [WARNING] trading - API hatası - yeniden deneniyor...

@@ -1,0 +1,108 @@
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [ERROR] binance - API hatası: Invalid symbol
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [ERROR] binance - Request hatası: Timeout
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:28:31 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:28:33 [ERROR] binance - API hatası: API-key format invalid.
+2025-11-06 10:28:33 [ERROR] binance - Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 10:30:09 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:30:11 [ERROR] binance - API hatası: API-key format invalid.
+2025-11-06 10:30:11 [ERROR] binance - Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 11:32:11 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 11:32:12 [ERROR] binance - API hatası: API-key format invalid.
+2025-11-06 11:32:12 [ERROR] binance - Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 15:47:21 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 15:47:23 [ERROR] binance - API hatası: API-key format invalid.
+2025-11-06 15:47:23 [ERROR] binance - Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 15:48:29 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 15:48:30 [ERROR] binance - API hatası: API-key format invalid.
+2025-11-06 15:48:30 [ERROR] binance - Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 15:56:22 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-06 16:02:38 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-06 16:02:40 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-06 16:02:40 [INFO] binance - BinanceManager kapatıldı
+2025-11-06 16:04:03 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-06 16:04:04 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 06:27:25 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 06:27:26 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 06:30:40 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 06:30:41 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 06:36:23 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 06:36:25 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 06:36:25 [INFO] binance - BinanceManager kapatıldı
+2025-11-07 06:44:52 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 06:44:53 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 06:51:10 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 06:51:11 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 06:51:39 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 06:51:40 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 06:52:08 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 06:52:09 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 06:52:37 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 06:52:39 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 06:52:40 [INFO] binance - BinanceManager kapatıldı
+2025-11-07 06:55:20 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 06:55:22 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 06:59:07 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 06:59:08 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 07:09:38 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 07:12:36 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 07:12:37 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-07 07:26:22 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-07 07:26:23 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 22:40:15 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 22:40:16 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 22:45:49 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 22:45:50 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 22:45:51 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 22:45:52 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 22:45:53 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 22:45:53 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:01:07 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:01:08 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:01:41 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:02:12 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:02:13 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:02:14 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:02:15 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:02:15 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:02:15 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:04:24 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:04:26 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:04:26 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:04:27 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:04:28 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:04:28 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:06:30 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:06:31 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:06:32 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:06:33 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:06:33 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:06:33 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:08:58 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:08:59 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:09:00 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:09:01 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:13:39 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:13:40 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:13:41 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:13:41 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:21:20 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:21:20 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:25:37 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:25:37 [INFO] binance - BinanceManager kapatıldı
+2025-11-11 23:35:40 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-11 23:35:41 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-11 23:35:42 [INFO] binance - BinanceManager kapatıldı

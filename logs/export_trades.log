@@ -1,0 +1,16 @@
+2025-11-12 18:15:08 [INFO] export_trades - ✅ Database connected
+2025-11-12 18:15:08 [ERROR] export_trades - ❌ Failed to fetch trades: relation "trade_history" does not exist
+LINE 1: SELECT * FROM trade_history WHERE 1=1 ORDER BY entry_time DE...
+                      ^
+
+2025-11-12 18:15:08 [INFO] export_trades - Database connection closed
+2025-11-12 18:17:16 [INFO] export_trades - ✅ Database connected
+2025-11-12 18:17:16 [INFO] export_trades - ✅ Fetched 6 trades
+2025-11-12 18:17:16 [INFO] export_trades - Database connection closed
+2025-11-12 18:20:41 [INFO] export_trades - ✅ Database connected
+2025-11-12 18:20:41 [INFO] export_trades - ✅ Fetched 6 trades
+2025-11-12 18:20:41 [INFO] export_trades - Database connection closed
+2025-11-12 19:01:38 [INFO] export_trades - ✅ Database connected
+2025-11-12 19:01:38 [INFO] export_trades - ✅ Fetched 6 trades
+2025-11-12 19:01:38 [INFO] export_trades - ✅ Exported 6 trades to test.csv
+2025-11-12 19:01:38 [INFO] export_trades - Database connection closed

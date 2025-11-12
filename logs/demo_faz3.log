@@ -1,0 +1,98 @@
+2025-11-06 10:19:25 [INFO] demo_faz3 - ======================================================================
+2025-11-06 10:19:25 [INFO] demo_faz3 - FAZ 3 DEMO BAŞLADI
+2025-11-06 10:19:25 [INFO] demo_faz3 - ======================================================================
+2025-11-06 10:19:25 [ERROR] demo_faz3 - Binance error: API key ve secret gerekli
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\demo_faz3.py", line 397, in main
+    manager = BinanceManager(config)
+  File "C:\Users\pc\Desktop\trading-bot\src\binance\binance_manager.py", line 165, in __init__
+    raise BinanceError("API key ve secret gerekli")
+src.binance.binance_manager.BinanceError: API key ve secret gerekli
+2025-11-06 10:30:09 [INFO] demo_faz3 - ======================================================================
+2025-11-06 10:30:09 [INFO] demo_faz3 - FAZ 3 DEMO BAŞLADI
+2025-11-06 10:30:09 [INFO] demo_faz3 - ======================================================================
+2025-11-06 10:30:11 [ERROR] demo_faz3 - Connection error: Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 10:30:11 [ERROR] demo_faz3 - Binance error: Bağlantı hatası: Binance API hatası: API-key format invalid.
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\src\binance\binance_manager.py", line 353, in connect
+    account = self._request('GET', '/fapi/v2/account', signed=True, weight=5)
+  File "C:\Users\pc\Desktop\trading-bot\src\binance\binance_manager.py", line 314, in _request
+    raise BinanceError(
+src.binance.binance_manager.BinanceError: Binance API hatası: API-key format invalid.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\demo_faz3.py", line 402, in main
+    demo_connection(manager, logger)
+  File "C:\Users\pc\Desktop\trading-bot\demo_faz3.py", line 56, in demo_connection
+    manager.connect()
+  File "C:\Users\pc\Desktop\trading-bot\src\binance\binance_manager.py", line 373, in connect
+    raise BinanceError(f"Bağlantı hatası: {e}")
+src.binance.binance_manager.BinanceError: Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 11:32:10 [INFO] demo_faz3 - ======================================================================
+2025-11-06 11:32:10 [INFO] demo_faz3 - FAZ 3 DEMO BAŞLADI
+2025-11-06 11:32:10 [INFO] demo_faz3 - ======================================================================
+2025-11-06 11:32:12 [ERROR] demo_faz3 - Connection error: Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 11:32:12 [ERROR] demo_faz3 - Binance error: Bağlantı hatası: Binance API hatası: API-key format invalid.
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\src\binance\binance_manager.py", line 353, in connect
+    account = self._request('GET', '/fapi/v2/account', signed=True, weight=5)
+  File "C:\Users\pc\Desktop\trading-bot\src\binance\binance_manager.py", line 314, in _request
+    raise BinanceError(
+src.binance.binance_manager.BinanceError: Binance API hatası: API-key format invalid.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\demo_faz3.py", line 402, in main
+    demo_connection(manager, logger)
+  File "C:\Users\pc\Desktop\trading-bot\demo_faz3.py", line 56, in demo_connection
+    manager.connect()
+  File "C:\Users\pc\Desktop\trading-bot\src\binance\binance_manager.py", line 373, in connect
+    raise BinanceError(f"Bağlantı hatası: {e}")
+src.binance.binance_manager.BinanceError: Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 15:48:28 [INFO] demo_faz3 - ======================================================================
+2025-11-06 15:48:28 [INFO] demo_faz3 - FAZ 3 DEMO BAŞLADI
+2025-11-06 15:48:28 [INFO] demo_faz3 - ======================================================================
+2025-11-06 15:48:30 [ERROR] demo_faz3 - Connection error: Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 15:48:30 [ERROR] demo_faz3 - Binance error: Bağlantı hatası: Binance API hatası: API-key format invalid.
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\src\binance\binance_manager.py", line 359, in connect
+    account = self._request('GET', '/fapi/v2/account', signed=True, weight=5)
+  File "C:\Users\pc\Desktop\trading-bot\src\binance\binance_manager.py", line 320, in _request
+    raise BinanceError(
+src.binance.binance_manager.BinanceError: Binance API hatası: API-key format invalid.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\demo_faz3.py", line 402, in main
+    demo_connection(manager, logger)
+  File "C:\Users\pc\Desktop\trading-bot\demo_faz3.py", line 56, in demo_connection
+    manager.connect()
+  File "C:\Users\pc\Desktop\trading-bot\src\binance\binance_manager.py", line 379, in connect
+    raise BinanceError(f"Bağlantı hatası: {e}")
+src.binance.binance_manager.BinanceError: Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 16:04:02 [INFO] demo_faz3 - ======================================================================
+2025-11-06 16:04:02 [INFO] demo_faz3 - FAZ 3 DEMO BAŞLADI
+2025-11-06 16:04:02 [INFO] demo_faz3 - ======================================================================
+2025-11-06 16:04:04 [INFO] demo_faz3 - Connection test başarılı
+2025-11-06 16:04:05 [INFO] demo_faz3 - Klines alındı: 5 mum
+2025-11-06 16:04:06 [INFO] demo_faz3 - Ticker alındı: BTCUSDT
+2025-11-06 16:04:06 [INFO] demo_faz3 - Order book alındı: BTCUSDT
+2025-11-06 16:04:06 [INFO] demo_faz3 - Mark price alındı: BTCUSDT
+2025-11-06 16:04:08 [INFO] demo_faz3 - Balance alındı: 7 assets
+2025-11-06 16:04:08 [INFO] demo_faz3 - Positions alındı: 0 open
+2025-11-06 16:04:08 [INFO] demo_faz3 - Orders alındı: 0 open
+2025-11-07 06:30:39 [INFO] demo_faz3 - ======================================================================
+2025-11-07 06:30:39 [INFO] demo_faz3 - FAZ 3 DEMO BAŞLADI
+2025-11-07 06:30:39 [INFO] demo_faz3 - ======================================================================
+2025-11-07 06:30:41 [INFO] demo_faz3 - Connection test başarılı
+2025-11-07 06:30:42 [INFO] demo_faz3 - Klines alındı: 5 mum
+2025-11-07 06:30:43 [INFO] demo_faz3 - Ticker alındı: BTCUSDT
+2025-11-07 06:30:43 [INFO] demo_faz3 - Order book alındı: BTCUSDT
+2025-11-07 06:30:43 [INFO] demo_faz3 - Mark price alındı: BTCUSDT
+2025-11-07 06:30:45 [INFO] demo_faz3 - Balance alındı: 7 assets
+2025-11-07 06:30:45 [INFO] demo_faz3 - Positions alındı: 0 open
+2025-11-07 06:30:45 [INFO] demo_faz3 - Orders alındı: 0 open

@@ -1,0 +1,419 @@
+# ==========================================
+# TRADING BOT KONFİGÜRASYONU v4.2
+# ==========================================
+# Son güncelleme: FAZ 4 - Whitelist eklendi
+
+# Sistem Ayarları
+system:
+  environment: "development"  # development, staging, production
+  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  shutdown_on_signal: true
+  close_positions_on_shutdown: false  # Pozisyonları tut
+  backup_interval_hours: 1
+  max_backup_count: 168  # 1 hafta
+
+# Binance API
+binance:
+  api_key: ${CONFIG_BINANCE_API_KEY}  # .env dosyasından alınacak
+  api_secret: ${CONFIG_BINANCE_API_SECRET}  # .env dosyasından alınacak
+  testnet: true  # true = demo/testnet, false = gerçek hesap
+  
+  # API Base URLs
+  # demo.binance.com ve testnet.binancefuture.com aynı sisteme yönleniyor
+  base_url: "https://testnet.binancefuture.com"  # Demo trading API
+  
+  # WebSocket URLs
+  ws_url: "wss://stream.binancefuture.com"  # Demo WebSocket
+  
+  # NOT: demo.binance.com → testnet.binancefuture.com'a yönleniyor
+  # İkisi de aynı test sistemi, testnet: true kullan
+
+# Veritabanı Ayarları
+postgres:
+  host: ${CONFIG_POSTGRES_HOST}
+  port: ${CONFIG_POSTGRES_PORT}
+  database: ${CONFIG_POSTGRES_DATABASE}
+  user: ${CONFIG_POSTGRES_USER}
+  password: ${CONFIG_POSTGRES_PASSWORD}
+  pool_size: 5
+  max_overflow: 10
+
+redis:
+  host: ${CONFIG_REDIS_HOST}
+  port: ${CONFIG_REDIS_PORT}
+  db: ${CONFIG_REDIS_DB}
+  password: ${CONFIG_REDIS_PASSWORD}
+  ttl: 86400  # 24 saat (saniye)
+
+influxdb:
+  url: "http://localhost:8086"
+  token: ""
+  org: "trading_org"
+  bucket: "trading_metrics"
+
+# API Ayarları
+api:
+  timeout: 30  # saniye
+  retry_count: 3
+  retry_delay: 1  # saniye
+  rate_limit: 10  # saniye başına istek
+
+# ==========================================
+# COIN SEÇİM AJANI (FAZ 4) - GÜNCELLENDİ
+# ==========================================
+coin_selection:
+  enabled: true
+  mode: "whitelist"  # "whitelist" (önerilen) veya "dynamic" (FAZ 4 agent)
+  update_interval_hours: 4
+  
+  # Faz bazlı coin sayıları
+  phase_1_count: 5   # Ay 1-2
+  phase_2_count: 10  # Ay 3-4
+  phase_3_count: 20  # Ay 5-6
+  
+  # ========== WHITELIST MODE (ÖNERİLEN) ==========
+  # Önceden belirlenmiş major coinler - Production için güvenli
+  whitelist:
+    phase_1:  # Conservative (Ay 1-2)
+      - BTCUSDT    # Bitcoin - Market leader
+      - ETHUSDT    # Ethereum - DeFi king
+      - SOLUSDT    # Solana - High performance
+      - XRPUSDT    # Ripple - Banking solution
+      - BNBUSDT    # Binance Coin - Exchange token
+    
+    phase_2:  # Moderate (Ay 3-4)
+      - BTCUSDT
+      - ETHUSDT
+      - SOLUSDT
+      - XRPUSDT
+      - BNBUSDT
+      - ADAUSDT    # Cardano - Academic blockchain
+      - DOGEUSDT   # Dogecoin - Meme + liquidity
+      - AVAXUSDT   # Avalanche - Fast L1
+      - LINKUSDT   # Chainlink - Oracle leader
+      - DOTUSDT    # Polkadot - Interoperability
+    
+    phase_3:  # Aggressive (Ay 5-6)
+      - BTCUSDT
+      - ETHUSDT
+      - SOLUSDT
+      - XRPUSDT
+      - BNBUSDT
+      - ADAUSDT
+      - DOGEUSDT
+      - AVAXUSDT
+      - LINKUSDT
+      - DOTUSDT
+      - TRXUSDT    # Tron - High TPS
+      - LTCUSDT    # Litecoin - Bitcoin silver
+      - MATICUSDT  # Polygon - Ethereum L2
+      - NEARUSDT   # Near Protocol - User-friendly
+      - ATOMUSDT   # Cosmos - Hub blockchain
+      - UNIUSDT    # Uniswap - DEX leader
+      - APTUSDT    # Aptos - Move language
+      - ARBUSDT    # Arbitrum - L2 scaling
+      - OPUSDT     # Optimism - L2 scaling
+      - INJUSDT    # Injective - DeFi focused
+  
+  # ========== DYNAMIC MODE (FAZ 4 AGENT) ==========
+  # Otomatik coin selection - Research ve testing için
+  # NOT: Shitcoin riski var, production'da dikkatli kullan!
+  
+  # Filtreler
+  min_volume: 50000000  # $50M (sadece major coins)
+  max_spread: 0.005     # %0.5
+  min_volatility: 0.015 # %1.5
+  max_volatility: 0.20  # %20
+  
+  # Skorlama ağırlıkları
+  weights:
+    liquidity: 0.25
+    volatility: 0.20
+    trend_strength: 0.20
+    momentum: 0.15
+    volume_profile: 0.10
+    correlation: 0.10
+  
+  # ML model (FAZ 6+)
+  ml_enabled: false
+  ml_model_path: "models/coin_selector_v1.pkl"
+
+# Zaman Dilimleri
+timeframes:
+  primary: "15m"  # Ana timeframe
+  secondary: ["5m", "1h"]  # Destek timeframeler
+  kline_limit: 500  # Çekilecek mum sayısı
+
+# İndikatör Ayarları
+indicators:
+  supertrend:
+    period: 14
+    multiplier: 3.0
+    
+  most:
+    period: 21
+    percent: 2.5
+    
+  qqe:
+    rsi_period: 14
+    smoothing: 5
+    
+  rvol:
+    lookback: 20
+    threshold: 1.5
+    
+  atr:
+    period: 14
+
+# Sinyal Üretimi
+signals:
+  min_confidence: 0.6  # Minimum sinyal güveni
+  confirmation_required: true
+  
+  # Market rejime göre ağırlıklar
+  weights:
+    bull_market:
+      trend: 0.4
+      momentum: 0.3
+      volume: 0.3
+    bear_market:
+      trend: 0.5
+      momentum: 0.2
+      volume: 0.3
+    sideways:
+      momentum: 0.4
+      volume: 0.3
+      volatility: 0.3
+
+# Risk Yönetimi
+risk:
+  # Pozisyon boyutlandırma
+  base_position_size: 0.01  # %1 portföy
+  max_position_size: 0.03  # %3 portföy
+  max_portfolio_heat: 0.06  # %6 toplam risk
+  
+  # Stop-loss
+  stop_loss_multiplier: 2.0  # ATR çarpanı
+  max_loss_per_trade: 0.02  # %2
+  trailing_stop: false
+  
+  # Drawdown kontrol
+  daily_loss_limit: 0.03  # %3
+  weekly_loss_limit: 0.06  # %6
+  monthly_loss_limit: 0.10  # %10
+  recovery_mode_threshold: 0.08  # %8
+  
+  # Korelasyon
+  max_correlated_positions: 3
+  correlation_threshold: 0.7
+
+# Adaptif RR Sistemi
+rr_system:
+  enabled: true
+  mode: "adaptive"  # adaptive, static
+  
+  # RR aralığı
+  min_rr: 1.1
+  max_rr: 1.9
+  default_rr: 1.5  # Adaptive devre dışıysa
+  
+  # Öğrenme
+  initial_learning_rate: 0.02  # Başlangıç
+  learning_rate_min: 0.001
+  learning_rate_max: 0.05
+  
+  # Ağırlıklar
+  signal_weight: 0.7
+  market_weight: 0.3
+  
+  # Stabilizasyon
+  stabilization_window: 20  # trade
+  volatility_threshold: 0.4
+  freeze_duration_hours: 24
+  
+  # State dosyası
+  state_file: "state/rr_weights.json"
+  history_file: "state/rr_learning_history.json"
+
+# Machine Learning
+ml:
+  enabled: false  # Faz 7'de aktif
+  
+  models:
+    lightgbm:
+      enabled: true
+      n_estimators: 100
+      learning_rate: 0.1
+      
+    lstm:
+      enabled: true
+      units: 64
+      dropout: 0.2
+      
+  feature_engineering:
+    technical_features: true
+    microstructure_features: false  # Faz 7'de
+    temporal_features: true
+    
+  training:
+    train_split: 0.6
+    validation_split: 0.2
+    test_split: 0.2
+    retrain_frequency_days: 7
+
+# Reinforcement Learning
+rl:
+  enabled: false  # Faz 7'de aktif
+  algorithm: "PPO"
+  
+  training:
+    total_timesteps: 100000
+    learning_rate: 0.0001
+    batch_size: 256
+    gamma: 0.99
+    
+  reward:
+    pnl_weight: 0.4
+    sharpe_weight: 0.3
+    drawdown_penalty: -0.2
+    cost_penalty: -0.1
+
+# Dashboard Ayarları
+dashboard:
+  enabled: true
+  
+  learning_dashboard:
+    port: 8051
+    update_interval: 5  # saniye
+    
+  visual_dashboard:
+    port: 8050
+    update_interval: 1  # saniye
+    
+  grafana:
+    enabled: false
+    port: 3000
+
+# Monitoring ve Alarmlar
+monitoring:
+  health_check_interval: 30  # saniye
+  
+  alerts:
+    telegram:
+      enabled: false
+      bot_token: ""
+      chat_id: ""
+      
+    email:
+      enabled: false
+      smtp_host: ""
+      smtp_port: 587
+      from_email: ""
+      to_email: ""
+      password: ""
+      
+    discord:
+      enabled: false
+      webhook_url: ""
+
+# Yedekleme
+backup:
+  enabled: true
+  
+  local:
+    path: "backups"
+    max_backups: 168  # 1 hafta
+    
+  cloud:
+    enabled: false
+    provider: "s3"  # s3, gcs
+    bucket: ""
+    region: "eu-central-1"
+    access_key: ""
+    secret_key: ""
+
+# Performans
+performance:
+  multiprocessing: false
+  max_workers: 4
+  async_enabled: true
+  cache_enabled: true
+
+# Test ve Debug
+debug:
+  paper_trading: true
+  mock_data: false
+  verbose_logging: false
+  save_signals: true
+  save_orders: true
+
+# Limit ve Eşikler
+limits:
+  max_daily_trades: 50
+  max_open_positions: 10
+  min_order_value: 10  # USDT
+  max_order_value: 1000  # USDT
+
+# İstatistikler
+stats:
+  calculate_sharpe: true
+  calculate_sortino: true
+  calculate_calmar: true
+  rolling_window: 30  # günlük metrikler için
+
+# Bildirimlerin
+notifications:
+  trade_opened: false
+  trade_closed: true
+  stop_loss_hit: true
+  rr_target_reached: true
+  error_occurred: true
+  daily_summary: true
+  weekly_report: true
+
+# ==========================================
+# NOTLAR v4.2
+# ==========================================
+# 
+# FAZ 4 GÜNCELLEMELERİ:
+# ---------------------
+# 1. coin_selection.mode eklendi:
+#    - "whitelist": Önceden belirlenmiş major coinler (ÖNERİLEN)
+#    - "dynamic": FAZ 4 agent ile otomatik seçim
+#
+# 2. coin_selection.whitelist eklendi:
+#    - phase_1: BTC, ETH, SOL, XRP, BNB (5 major)
+#    - phase_2: +5 mid-cap (10 total)
+#    - phase_3: +10 more (20 total)
+#
+# 3. Production için öneriler:
+#    - mode: "whitelist" kullan (güvenli, hızlı)
+#    - Shitcoin riski yok
+#    - Test edilmiş major coinler
+#
+# 4. Research için:
+#    - mode: "dynamic" kullan (FAZ 4 agent)
+#    - Yeni coinleri keşfet
+#    - Ancak shitcoin riski var!
+#
+# GENEL NOTLAR:
+# -------------
+# 1. Testnet ile başla:
+#    binance.testnet: true
+#
+# 2. Paper trading:
+#    debug.paper_trading: true
+#
+# 3. Ortam değişkenleri ile override:
+#    CONFIG_BINANCE_API_KEY=xxx python main.py
+#
+# 4. Farklı environment'lar:
+#    - config_dev.yaml (development)
+#    - config_prod.yaml (production)
+#
+# 5. Güvenlik:
+#    - API keyler ortam değişkenlerinde
+#    - secrets.yaml (gitignore'da)
+#    - Production'da şifreli depolama
+#
+# ==========================================

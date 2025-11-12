@@ -1,0 +1,29 @@
+2025-11-05 09:56:20 [ERROR] errors - Hesaplama hatası
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\demo_usage.py", line 142, in demo_logger_usage
+    result = 1 / 0  # ZeroDivisionError
+ZeroDivisionError: division by zero
+2025-11-05 10:01:44 [ERROR] errors - Hesaplama hatası
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\demo_usage.py", line 142, in demo_logger_usage
+    result = 1 / 0  # ZeroDivisionError
+ZeroDivisionError: division by zero
+2025-11-05 10:01:45 [ERROR] errors - Config yüklenemedi: Config dosyası bulunamadı: config\nonexistent_config.yaml
+2025-11-05 10:01:45 [ERROR] errors - API bağlantı hatası
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\demo_usage.py", line 277, in demo_error_handling
+    raise ConnectionError("Binance API'ye bağlanılamadı")
+ConnectionError: Binance API'ye bağlanılamadı
+2025-11-05 10:01:45 [ERROR] errors - Trade hatası: Yetersiz bakiye: Position açılamıyor
+2025-11-05 10:15:19 [ERROR] errors - Hesaplama hatası
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\demo_usage.py", line 142, in demo_logger_usage
+    result = 1 / 0  # ZeroDivisionError
+ZeroDivisionError: division by zero
+2025-11-05 10:15:19 [ERROR] errors - Config yüklenemedi: Config dosyası bulunamadı: config\nonexistent_config.yaml
+2025-11-05 10:15:19 [ERROR] errors - API bağlantı hatası
+Traceback (most recent call last):
+  File "C:\Users\pc\Desktop\trading-bot\demo_usage.py", line 277, in demo_error_handling
+    raise ConnectionError("Binance API'ye bağlanılamadı")
+ConnectionError: Binance API'ye bağlanılamadı
+2025-11-05 10:15:19 [ERROR] errors - Trade hatası: Yetersiz bakiye: Position açılamıyor

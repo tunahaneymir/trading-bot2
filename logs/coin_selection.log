@@ -1,0 +1,225 @@
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 2, 10 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 3, 20 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:26:34 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-07 06:26:34 [INFO] coin_selection - Toplam 2 USDT-M Perpetual coin bulundu
+2025-11-07 06:26:34 [INFO] coin_selection - 2 coin için ticker data alındı
+2025-11-07 06:36:25 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:36:25 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-07 06:36:25 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-07 06:36:25 [INFO] coin_selection - Toplam 512 USDT-M Perpetual coin bulundu
+2025-11-07 06:36:25 [INFO] coin_selection - 512 coin için ticker data alındı
+2025-11-07 06:36:25 [INFO] coin_selection - Step 1/6: 512 coin tarandı
+2025-11-07 06:36:25 [INFO] coin_selection - Step 2/6: 0 coin pre-filter'dan geçti
+2025-11-07 06:36:25 [ERROR] coin_selection - Pre-filter sonrası coin kalmadı
+2025-11-07 06:52:39 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:52:39 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-07 06:52:39 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-07 06:52:39 [INFO] coin_selection - Toplam 512 USDT-M Perpetual coin bulundu
+2025-11-07 06:52:40 [INFO] coin_selection - 512 coin için ticker data alındı
+2025-11-07 06:52:40 [INFO] coin_selection - Step 1/6: 512 coin tarandı
+2025-11-07 06:52:40 [INFO] coin_selection - Step 2/6: 0 coin pre-filter'dan geçti
+2025-11-07 06:52:40 [ERROR] coin_selection - Pre-filter sonrası coin kalmadı
+2025-11-07 06:55:22 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:55:22 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-07 06:55:22 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-07 06:55:22 [INFO] coin_selection - Toplam 512 USDT-M Perpetual coin bulundu
+2025-11-07 06:55:22 [INFO] coin_selection - 512 coin için ticker data alındı
+2025-11-07 06:55:22 [INFO] coin_selection - Step 1/6: 512 coin tarandı
+2025-11-07 06:55:22 [INFO] coin_selection - Step 2/6: 0 coin pre-filter'dan geçti
+2025-11-07 06:55:22 [ERROR] coin_selection - Pre-filter sonrası coin kalmadı
+2025-11-07 06:59:08 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 06:59:08 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-07 06:59:08 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-07 06:59:09 [INFO] coin_selection - Toplam 512 USDT-M Perpetual coin bulundu
+2025-11-07 06:59:09 [INFO] coin_selection - 512 coin için ticker data alındı
+2025-11-07 06:59:09 [INFO] coin_selection - Step 1/6: 512 coin tarandı
+2025-11-07 06:59:09 [INFO] coin_selection - Step 2/6: 0 coin pre-filter'dan geçti
+2025-11-07 06:59:09 [ERROR] coin_selection - Pre-filter sonrası coin kalmadı
+2025-11-07 07:12:37 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-07 07:12:37 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-07 07:12:37 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-07 07:12:37 [INFO] coin_selection - Toplam 512 USDT-M Perpetual coin bulundu
+2025-11-07 07:12:38 [INFO] coin_selection - 512 coin için ticker data alındı
+2025-11-07 07:12:38 [INFO] coin_selection - Step 1/6: 512 coin tarandı
+2025-11-07 07:12:38 [INFO] coin_selection - Step 2/6: 0 coin pre-filter'dan geçti
+2025-11-07 07:12:38 [ERROR] coin_selection - Pre-filter sonrası coin kalmadı
+2025-11-11 22:40:16 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-11 22:40:16 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-11 22:40:16 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-11 22:40:17 [INFO] coin_selection - Toplam 513 USDT-M Perpetual coin bulundu
+2025-11-11 22:40:17 [INFO] coin_selection - 513 coin için ticker data alındı
+2025-11-11 22:40:17 [INFO] coin_selection - Step 1/6: 513 coin tarandı
+2025-11-11 22:40:17 [INFO] coin_selection - Step 2/6: 0 coin pre-filter'dan geçti
+2025-11-11 22:40:17 [ERROR] coin_selection - Pre-filter sonrası coin kalmadı
+2025-11-11 22:45:52 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-11 22:45:52 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-11 22:45:52 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-11 22:45:52 [INFO] coin_selection - Toplam 513 USDT-M Perpetual coin bulundu
+2025-11-11 22:45:53 [INFO] coin_selection - 513 coin için ticker data alındı
+2025-11-11 22:45:53 [INFO] coin_selection - Step 1/6: 513 coin tarandı
+2025-11-11 22:45:53 [INFO] coin_selection - Step 2/6: 0 coin pre-filter'dan geçti
+2025-11-11 22:45:53 [ERROR] coin_selection - Pre-filter sonrası coin kalmadı
+2025-11-11 23:02:15 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-11 23:02:15 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-11 23:02:15 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-11 23:02:15 [INFO] coin_selection - Toplam 513 USDT-M Perpetual coin bulundu
+2025-11-11 23:02:15 [INFO] coin_selection - 513 coin için ticker data alındı
+2025-11-11 23:02:15 [INFO] coin_selection - Step 1/6: 513 coin tarandı
+2025-11-11 23:02:15 [INFO] coin_selection - Step 2/6: 0 coin pre-filter'dan geçti
+2025-11-11 23:02:15 [ERROR] coin_selection - Pre-filter sonrası coin kalmadı
+2025-11-11 23:04:27 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-11 23:04:27 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-11 23:04:27 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-11 23:04:28 [INFO] coin_selection - Toplam 513 USDT-M Perpetual coin bulundu
+2025-11-11 23:04:28 [INFO] coin_selection - 513 coin için ticker data alındı
+2025-11-11 23:04:28 [INFO] coin_selection - Step 1/6: 513 coin tarandı
+2025-11-11 23:04:28 [INFO] coin_selection - Step 2/6: 0 coin pre-filter'dan geçti
+2025-11-11 23:04:28 [ERROR] coin_selection - Pre-filter sonrası coin kalmadı
+2025-11-11 23:06:33 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-11 23:06:33 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-11 23:06:33 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-11 23:06:33 [INFO] coin_selection - Toplam 513 USDT-M Perpetual coin bulundu
+2025-11-11 23:06:33 [INFO] coin_selection - 513 coin için ticker data alındı
+2025-11-11 23:06:33 [INFO] coin_selection - Step 1/6: 513 coin tarandı
+2025-11-11 23:06:33 [INFO] coin_selection - Step 2/6: 0 coin pre-filter'dan geçti
+2025-11-11 23:06:33 [ERROR] coin_selection - Pre-filter sonrası coin kalmadı
+2025-11-11 23:09:01 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-11 23:09:01 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-11 23:09:01 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-11 23:09:01 [INFO] coin_selection - Toplam 513 USDT-M Perpetual coin bulundu
+2025-11-11 23:09:02 [INFO] coin_selection - 513 coin için ticker data alındı
+2025-11-11 23:09:02 [INFO] coin_selection - Step 1/6: 513 coin tarandı
+2025-11-11 23:09:02 [INFO] coin_selection - Step 2/6: 500 coin pre-filter'dan geçti
+2025-11-11 23:09:14 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (10/500)
+2025-11-11 23:09:28 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (20/500)
+2025-11-11 23:09:41 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (30/500)
+2025-11-11 23:09:56 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (40/500)
+2025-11-11 23:10:12 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (50/500)
+2025-11-11 23:10:29 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (60/500)
+2025-11-11 23:10:44 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (70/500)
+2025-11-11 23:10:58 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (80/500)
+2025-11-11 23:11:12 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (90/500)
+2025-11-11 23:11:27 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (100/500)
+2025-11-11 23:11:43 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (110/500)
+2025-11-11 23:11:57 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (120/500)
+2025-11-11 23:12:11 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (130/500)
+2025-11-11 23:12:25 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (140/500)
+2025-11-11 23:12:41 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (150/500)
+2025-11-11 23:12:55 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (160/500)
+2025-11-11 23:13:11 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (170/500)
+2025-11-11 23:13:25 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (180/500)
+2025-11-11 23:13:41 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (190/500)
+2025-11-11 23:13:41 [INFO] coin_selection - CoinSelectionAgent başlatıldı (Phase 1, 5 coins)
+2025-11-11 23:13:41 [INFO] coin_selection - Yeni coin selection başlatılıyor...
+2025-11-11 23:13:41 [INFO] coin_selection - Market taraması başlatılıyor...
+2025-11-11 23:13:42 [INFO] coin_selection - Toplam 513 USDT-M Perpetual coin bulundu
+2025-11-11 23:13:42 [INFO] coin_selection - 513 coin için ticker data alındı
+2025-11-11 23:13:42 [INFO] coin_selection - Step 1/6: 513 coin tarandı
+2025-11-11 23:13:42 [INFO] coin_selection - Step 2/6: 478 coin pre-filter'dan geçti
+2025-11-11 23:13:54 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (10/478)
+2025-11-11 23:13:56 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (200/500)
+2025-11-11 23:14:07 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (20/478)
+2025-11-11 23:14:10 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (210/500)
+2025-11-11 23:14:22 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (30/478)
+2025-11-11 23:14:25 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (220/500)
+2025-11-11 23:14:39 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (230/500)
+2025-11-11 23:14:39 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (40/478)
+2025-11-11 23:14:52 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (50/478)
+2025-11-11 23:14:54 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (240/500)
+2025-11-11 23:15:06 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (60/478)
+2025-11-11 23:15:08 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (250/500)
+2025-11-11 23:15:20 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (70/478)
+2025-11-11 23:15:22 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (260/500)
+2025-11-11 23:15:35 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (80/478)
+2025-11-11 23:15:35 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (270/500)
+2025-11-11 23:15:49 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (280/500)
+2025-11-11 23:15:49 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (90/478)
+2025-11-11 23:16:06 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (100/478)
+2025-11-11 23:16:06 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (290/500)
+2025-11-11 23:16:20 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (110/478)
+2025-11-11 23:16:21 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (300/500)
+2025-11-11 23:16:33 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (120/478)
+2025-11-11 23:16:35 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (310/500)
+2025-11-11 23:16:48 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (130/478)
+2025-11-11 23:16:49 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (320/500)
+2025-11-11 23:17:03 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (140/478)
+2025-11-11 23:17:04 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (330/500)
+2025-11-11 23:17:20 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (150/478)
+2025-11-11 23:17:20 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (340/500)
+2025-11-11 23:17:35 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (350/500)
+2025-11-11 23:17:35 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (160/478)
+2025-11-11 23:17:49 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (360/500)
+2025-11-11 23:17:50 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (170/478)
+2025-11-11 23:18:03 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (370/500)
+2025-11-11 23:18:04 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (180/478)
+2025-11-11 23:18:21 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (380/500)
+2025-11-11 23:18:22 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (190/478)
+2025-11-11 23:18:36 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (390/500)
+2025-11-11 23:18:38 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (200/478)
+2025-11-11 23:18:51 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (400/500)
+2025-11-11 23:18:54 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (210/478)
+2025-11-11 23:19:06 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (410/500)
+2025-11-11 23:19:10 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (220/478)
+2025-11-11 23:19:20 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (420/500)
+2025-11-11 23:19:24 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (230/478)
+2025-11-11 23:19:36 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (430/500)
+2025-11-11 23:19:38 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (240/478)
+2025-11-11 23:19:52 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (440/500)
+2025-11-11 23:19:56 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (250/478)
+2025-11-11 23:20:07 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (450/500)
+2025-11-11 23:20:10 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (260/478)
+2025-11-11 23:20:21 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (460/500)
+2025-11-11 23:20:25 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (270/478)
+2025-11-11 23:20:35 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (470/500)
+2025-11-11 23:20:39 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (280/478)
+2025-11-11 23:20:53 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (480/500)
+2025-11-11 23:20:56 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (290/478)
+2025-11-11 23:21:07 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (490/500)
+2025-11-11 23:21:10 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (300/478)
+2025-11-11 23:21:19 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (500/500)
+2025-11-11 23:21:20 [INFO] coin_selection - Step 3/6: 496 coin için metrikler hesaplandı
+2025-11-11 23:21:20 [INFO] coin_selection - Step 4/6: 454 coin tüm filtreleri geçti
+2025-11-11 23:21:20 [INFO] coin_selection - Step 5/6: 454 coin skorlandı
+2025-11-11 23:21:20 [INFO] coin_selection - Step 6/6: Top 5 coin seçildi
+2025-11-11 23:21:20 [ERROR] coin_selection - PostgreSQL kayıt hatası: relation "coin_selections" does not exist
+LINE 2:                     INSERT INTO coin_selections (
+                                        ^
+
+2025-11-11 23:21:20 [INFO] coin_selection - Selection sonuçları Redis'e cache'lendi
+2025-11-11 23:21:20 [INFO] coin_selection - Coin selection tamamlandı (739.19s)
+2025-11-11 23:21:25 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (310/478)
+2025-11-11 23:21:38 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (320/478)
+2025-11-11 23:21:53 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (330/478)
+2025-11-11 23:22:09 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (340/478)
+2025-11-11 23:22:25 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (350/478)
+2025-11-11 23:22:40 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (360/478)
+2025-11-11 23:22:55 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (370/478)
+2025-11-11 23:23:12 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (380/478)
+2025-11-11 23:23:27 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (390/478)
+2025-11-11 23:23:43 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (400/478)
+2025-11-11 23:23:59 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (410/478)
+2025-11-11 23:24:13 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (420/478)
+2025-11-11 23:24:27 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (430/478)
+2025-11-11 23:24:41 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (440/478)
+2025-11-11 23:24:56 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (450/478)
+2025-11-11 23:25:11 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (460/478)
+2025-11-11 23:25:26 [INFO] coin_selection - Step 3/6: Metrikler hesaplanıyor... (470/478)
+2025-11-11 23:25:36 [INFO] coin_selection - Step 3/6: 474 coin için metrikler hesaplandı
+2025-11-11 23:25:36 [INFO] coin_selection - Step 4/6: 433 coin tüm filtreleri geçti
+2025-11-11 23:25:36 [INFO] coin_selection - Step 5/6: 433 coin skorlandı
+2025-11-11 23:25:36 [INFO] coin_selection - Step 6/6: Top 5 coin seçildi
+2025-11-11 23:25:36 [ERROR] coin_selection - PostgreSQL kayıt hatası: relation "coin_selections" does not exist
+LINE 2:                     INSERT INTO coin_selections (
+                                        ^
+
+2025-11-11 23:25:37 [INFO] coin_selection - Selection sonuçları Redis'e cache'lendi
+2025-11-11 23:25:37 [INFO] coin_selection - Coin selection tamamlandı (715.03s)
