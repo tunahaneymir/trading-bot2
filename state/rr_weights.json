@@ -1,0 +1,8 @@
+{
+  "signal_weight": 0.7,
+  "market_weight": 0.3,
+  "rl_factor": 1.0,
+  "last_update": "2025-01-13T00:00:00+00:00",
+  "frozen": false,
+  "frozen_until": null
+}
